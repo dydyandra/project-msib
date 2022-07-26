@@ -1,0 +1,46 @@
+{
+    "count": 11,
+    "field": {
+        "_id": {
+            "type": [
+                "INTEGER",
+                "OID"
+            ]
+        },
+        "title": {
+            "type": "STRING"
+        },
+        "isbn": {
+            "type": "STRING"
+        },
+        "pageCount": {
+            "type": "INTEGER"
+        },
+        "publishedDate": {
+            "type": "DATE"
+        },
+        "thumbnailUrl": {
+            "type": "STRING"
+        },
+        "shortDescription": {
+            "type": "STRING"
+        },
+        "longDescription": {
+            "type": "STRING"
+        },
+        "status": {
+            "type": "STRING"
+        },
+        "authors": {
+            "type": [
+                "BIGINTEGER",
+                "STRING"
+            ],
+            "isarray": "TRUE"
+        },
+        "categories": {
+            "type": "STRING",
+            "isarray": "TRUE"
+        }
+    }
+}

@@ -1,0 +1,304 @@
+{
+    "count": 42,
+    "field": {
+        "_id": {
+            "type": "STRING"
+        },
+        "listing_url": {
+            "type": "STRING"
+        },
+        "name": {
+            "type": "STRING"
+        },
+        "summary": {
+            "type": "STRING"
+        },
+        "space": {
+            "type": "STRING"
+        },
+        "description": {
+            "type": "STRING"
+        },
+        "neighborhood_overview": {
+            "type": "STRING"
+        },
+        "notes": {
+            "type": "STRING"
+        },
+        "transit": {
+            "type": "STRING"
+        },
+        "access": {
+            "type": "STRING"
+        },
+        "interaction": {
+            "type": "STRING"
+        },
+        "house_rules": {
+            "type": "STRING"
+        },
+        "property_type": {
+            "type": "STRING"
+        },
+        "room_type": {
+            "type": "STRING"
+        },
+        "bed_type": {
+            "type": "STRING"
+        },
+        "minimum_nights": {
+            "type": "STRING"
+        },
+        "maximum_nights": {
+            "type": "STRING"
+        },
+        "cancellation_policy": {
+            "type": "STRING"
+        },
+        "last_scraped": {
+            "type": "DATE"
+        },
+        "calendar_last_scraped": {
+            "type": "DATE"
+        },
+        "first_review": {
+            "type": "DATE"
+        },
+        "last_review": {
+            "type": "DATE"
+        },
+        "accommodates": {
+            "type": "INTEGER"
+        },
+        "bedrooms": {
+            "type": "INTEGER"
+        },
+        "beds": {
+            "type": "INTEGER"
+        },
+        "number_of_reviews": {
+            "type": [
+                "INTEGER",
+                "FLOAT"
+            ]
+        },
+        "bathrooms": {
+            "type": "FLOAT"
+        },
+        "amenities": {
+            "type": "STRING",
+            "isarray": "TRUE"
+        },
+        "price": {
+            "type": "FLOAT"
+        },
+        "security_deposit": {
+            "type": "FLOAT"
+        },
+        "cleaning_fee": {
+            "type": "FLOAT"
+        },
+        "extra_people": {
+            "type": "FLOAT"
+        },
+        "guests_included": {
+            "type": "FLOAT"
+        },
+        "images": {
+            "type": "OBJECT",
+            "count": 4,
+            "field": {
+                "thumbnail_url": {
+                    "type": "STRING"
+                },
+                "medium_url": {
+                    "type": "STRING"
+                },
+                "picture_url": {
+                    "type": "STRING"
+                },
+                "xl_picture_url": {
+                    "type": "STRING"
+                }
+            }
+        },
+        "host": {
+            "type": "OBJECT",
+            "count": 16,
+            "field": {
+                "host_id": {
+                    "type": "STRING"
+                },
+                "host_url": {
+                    "type": "STRING"
+                },
+                "host_name": {
+                    "type": "STRING"
+                },
+                "host_location": {
+                    "type": "STRING"
+                },
+                "host_about": {
+                    "type": "STRING"
+                },
+                "host_response_time": {
+                    "type": "STRING"
+                },
+                "host_thumbnail_url": {
+                    "type": "STRING"
+                },
+                "host_picture_url": {
+                    "type": "STRING"
+                },
+                "host_neighbourhood": {
+                    "type": "STRING"
+                },
+                "host_response_rate": {
+                    "type": "INTEGER"
+                },
+                "host_is_superhost": {
+                    "type": "BOOLEAN"
+                },
+                "host_has_profile_pic": {
+                    "type": "BOOLEAN"
+                },
+                "host_identity_verified": {
+                    "type": "BOOLEAN"
+                },
+                "host_listings_count": {
+                    "type": "INTEGER"
+                },
+                "host_total_listings_count": {
+                    "type": "INTEGER"
+                },
+                "host_verifications": {
+                    "type": "STRING",
+                    "isarray": "TRUE"
+                }
+            }
+        },
+        "address": {
+            "type": "OBJECT",
+            "count": 7,
+            "field": {
+                "street": {
+                    "type": "STRING"
+                },
+                "suburb": {
+                    "type": "STRING"
+                },
+                "government_area": {
+                    "type": "STRING"
+                },
+                "market": {
+                    "type": "STRING"
+                },
+                "country": {
+                    "type": "STRING"
+                },
+                "country_code": {
+                    "type": "STRING"
+                },
+                "location": {
+                    "type": "OBJECT",
+                    "count": 3,
+                    "field": {
+                        "type": {
+                            "type": "STRING"
+                        },
+                        "coordinates": {
+                            "count": 1,
+                            "field": {
+                                "$numberDouble": {
+                                    "type": "STRING"
+                                }
+                            },
+                            "isarray": "TRUE"
+                        },
+                        "is_location_exact": {
+                            "type": "BOOLEAN"
+                        }
+                    }
+                }
+            }
+        },
+        "availability": {
+            "type": "OBJECT",
+            "count": 4,
+            "field": {
+                "availability_30": {
+                    "type": "INTEGER"
+                },
+                "availability_60": {
+                    "type": "INTEGER"
+                },
+                "availability_90": {
+                    "type": "INTEGER"
+                },
+                "availability_365": {
+                    "type": "INTEGER"
+                }
+            }
+        },
+        "review_scores": {
+            "type": "OBJECT",
+            "count": 7,
+            "field": {
+                "review_scores_accuracy": {
+                    "type": "INTEGER"
+                },
+                "review_scores_cleanliness": {
+                    "type": "INTEGER"
+                },
+                "review_scores_checkin": {
+                    "type": "INTEGER"
+                },
+                "review_scores_communication": {
+                    "type": "INTEGER"
+                },
+                "review_scores_location": {
+                    "type": "INTEGER"
+                },
+                "review_scores_value": {
+                    "type": "INTEGER"
+                },
+                "review_scores_rating": {
+                    "type": "INTEGER"
+                }
+            }
+        },
+        "reviews": {
+            "count": 6,
+            "field": {
+                "_id": {
+                    "type": "STRING"
+                },
+                "date": {
+                    "type": "DATE"
+                },
+                "listing_id": {
+                    "type": "STRING"
+                },
+                "reviewer_id": {
+                    "type": "STRING"
+                },
+                "reviewer_name": {
+                    "type": "STRING"
+                },
+                "comments": {
+                    "type": "STRING"
+                }
+            },
+            "isarray": "TRUE"
+        },
+        "weekly_price": {
+            "type": "FLOAT"
+        },
+        "monthly_price": {
+            "type": "FLOAT"
+        },
+        "reviews_per_month": {
+            "type": "INTEGER"
+        }
+    }
+}
